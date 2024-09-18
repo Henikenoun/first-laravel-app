@@ -1,0 +1,6 @@
+// generer un model 
+    php artisan make:model categorie -mc --api
+//creer la table :
+    php artisan migrate
+//installer fichier api pour return les données en format json (au lieu de web.php)
+    php artisan install:api 
