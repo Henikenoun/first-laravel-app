@@ -4,3 +4,5 @@
     php artisan migrate
 //installer fichier api pour return les données en format json (au lieu de web.php)
     php artisan install:api 
+//Pour avoir la liste des routes on saisie la commande suivante :
+    php artisan route:list
